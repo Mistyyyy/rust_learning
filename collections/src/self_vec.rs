@@ -1,3 +1,5 @@
+use crate::quiz;
+
 pub fn create_new_vec() -> Vec<i32> {
     let val: Vec<i32> = Vec::new();
     return val;

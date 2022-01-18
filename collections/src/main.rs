@@ -51,9 +51,9 @@ fn main() {
 
     let str = "this is string".to_string();
 
-    let m = &str[0..2];
+    // let m = &str[0..2];
 
-    let str1 = "111";
+    // let str1 = "111";
 
     println!("{}", str);
 
@@ -86,7 +86,7 @@ fn main() {
 
     let teams = vec![String::from("Blue"), String::from("Red")];
     let scores = vec![10, 20];
-    let mut team_scores: HashMap<_, _> = teams.iter().zip(scores.iter()).collect();
+    let team_scores: HashMap<_, _> = teams.iter().zip(scores.iter()).collect();
 
     println!("The map is {:?}", team_scores);
 
@@ -114,7 +114,7 @@ fn main() {
 
     let mut v1 = vec![1, 2, 3];
 
-    let a = v1[0];
+    // let a = v1[0];
 
     v1.push(3);
 
